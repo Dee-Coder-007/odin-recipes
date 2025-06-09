@@ -5,14 +5,14 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #fff8f0;
-  color: #333;
+  background-color: rgb(25, 241, 223);
+  color: #c22222;
 }
 
 h1 {
   text-align: center;
-  background-color: #ff6b6b;
-  color: white;
+  background-color: turquoise;
+  color: rgb(17, 17, 17);
   padding: 1rem;
   margin: 0;
 }
@@ -43,7 +43,7 @@ p {
 }
 
 a {
-  color: #0077cc;
+  color: rgb(0, 43, 54);
   text-decoration: none;
 }
 
@@ -106,7 +106,7 @@ body.dark-mode ul a {
   color: #66ccff;
 }
 
-/* ... */
+/* Toggle */
 #toggle-dark {
   position: fixed;
   top: 10px;
