@@ -71,3 +71,62 @@ ul li {
 ul a {
   font-weight: bold;
 }
+
+/* Default light mode */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f2f2f2;
+}
+
+body.dark-mode h1 {
+  background-color: #333;
+  color: #ff6b6b;
+}
+
+body.dark-mode h2 {
+  color: #ffa07a;
+}
+
+body.dark-mode a {
+  color: #66ccff;
+}
+
+body.dark-mode a[href="../index.html"],
+body.dark-mode a[href="index.html"] {
+  background-color: #333;
+  color: #f2f2f2;
+}
+
+body.dark-mode ul a {
+  color: #66ccff;
+}
+
+/* ... */
+#toggle-dark {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+#toggle-dark:hover {
+  background-color: #e15a5a;
+}
+
+body.dark-mode #toggle-dark {
+  background-color: #444;
+  color: #f2f2f2;
+}

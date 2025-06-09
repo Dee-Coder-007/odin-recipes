@@ -8,11 +8,21 @@
 </head>
 <body>
   <h1>Odin Recipes</h1>
+  <button id="toggle-dark">Toggle</button>
+
 
   <ul>
     <li><a href="recipes/lasagna.html">Lasagna</a></li>
     <li><a href="recipes/fried-rice.html">Fried Rice</a></li>
     <li><a href="recipes/pancakes.html">Pancakes</a></li>
   </ul>
+
+  <script>
+  const toggleBtn = document.getElementById("toggle-dark");
+  toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+  });
+</script>
+
 </body>
 </html>
