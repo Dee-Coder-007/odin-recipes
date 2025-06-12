@@ -33,7 +33,6 @@ ul, ol {
 img {
   display: block;
   max-width: 500px;
-  width: 90%;
   margin: 1rem auto;
   border-radius: 10px;
 }
@@ -76,13 +75,13 @@ ul a {
 
 /* Default light mode */
 body {
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.5s;
 }
 
 /* Dark mode styles */
 body.dark-mode {
-  background-color: #1e1e1e;
-  color: #f2f2f2;
+  background-color: rgb(30, 30, 30);
+  color: rgb(242, 242, 242);
 }
 
 body.dark-mode h1 {
@@ -91,11 +90,11 @@ body.dark-mode h1 {
 }
 
 body.dark-mode h2 {
-  color: #ffa07a;
+  color: rgb(255, 160, 122);
 }
 
 body.dark-mode a {
-  color: #66ccff;
+    color: rgb(255, 107, 107);
 }
 
 body.dark-mode a[href="../index.html"],
@@ -105,7 +104,7 @@ body.dark-mode a[href="index.html"] {
 }
 
 body.dark-mode ul a {
-  color: rgb(102, 204, 255);
+  /* color: rgb(102, 204, 255); */
 }
 
 /* Toggle */
