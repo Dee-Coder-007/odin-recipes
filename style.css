@@ -9,6 +9,13 @@ body {
   color: turquoise;
 }
 
+nav {
+  background-color: rgb(17, 17, 17);
+  color: turquoise;
+  box-shadow: 1px 2px 2px white;
+  text-align: center;
+}
+
 h1 {
   text-align: center;
   background-color: turquoise;
@@ -101,10 +108,6 @@ body.dark-mode a[href="../index.html"],
 body.dark-mode a[href="index.html"] {
   background-color: rgb(51, 51, 51);
   color: white;
-}
-
-body.dark-mode ul a {
-  /* color: rgb(102, 204, 255); */
 }
 
 /* Toggle */
